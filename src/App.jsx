@@ -23,7 +23,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch('/models/experiences.json')
+    fetch('Portfolio/models/experiences.json')
       .then(res => res.json())
       .then(data => setExperiences(data))
       .catch(err => console.error('Failed to load inventory:', err));
@@ -48,7 +48,7 @@ function App() {
               </>
             }
           />
-          <Route path="/education" element={<ExperienceList experiences={experiences} type="education" />} />
+          <Route path="Portfolio/education" element={<ExperienceList experiences={experiences} type="education" />} />
         </Routes>
       </main>
       <Footer contactInfo={contactInfo} />
