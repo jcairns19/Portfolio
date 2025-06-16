@@ -25,7 +25,7 @@ function ProjectDisplay() {
             <h2>My Projects</h2>
             <h3>Overview</h3>
             <p>
-                This page is dedidcated to all of the projects I have worked professionally and as a hobbyist as they relate to my career as an engineer. I wanted to highlight one project in particular which is my homelab. This project started out in late 2020 with a pile of old computer hardware from scrapped computers and other parts gathered from RPI's technology recycling bins. I sought out to understand what is possible in the realm of self-hosting while hoping to pick up some technical skills like system administration and networking along the way. After countless hours of perservering through trial and error and other challanges, I have build up the system puctured below which is currently running 3 individual servers each with a wide variety of services used by a growing number of friends and family daily. I am proud of hof far I have come with this project and I am excited to see where it leads me in the future.
+                This page is dedicated to all of the projects I have worked professionally and as a hobbyist as they relate to my career as an engineer. I wanted to highlight one project in particular which is my home lab. This project started out in late 2020 with a pile of old computer hardware from scrapped computers and other parts gathered from RPI's technology recycling bins. I sought out to understand what is possible in the realm of self-hosting while hoping to pick up some technical skills like system administration and networking along the way. After countless hours of persevering through trial and error and other challenges, I have built up the system pictured below which is currently running 3 individual servers each with a wide variety of services used by a growing number of friends and family daily. I am proud of how far I have come with this project and I am excited to see where it leads me in the future.
             </p>
             <img
                 src={homelab}
@@ -52,7 +52,7 @@ function ProjectDisplay() {
             </div>
             <h3>Management</h3>
             <p>
-                To get into some of the technical specifics of how I manage each of these servers, I use an old Lenovo laptop to access serial ports and to open SSH sessions into each. For the Unraid and Proxmox servers, they also have a web GUI available for management. I configured each machine to have its own static IP address within my local network so that public facing applications are reliably accessible. Below is a list of all services I currently run and the network configuration surrounding them.
+                To get into some of the technical specifics of how I manage each of these servers, I use an old Lenovo laptop to access serial ports and to open SSH sessions into each. For the Unraid and Proxmox servers, they also have a web GUI available for management. The GPU server is running Windows Server 2019 and I use RDP at the moment to manage it although I am exploring other options. I configured each machine (and the virtual machines within) to have their own static IP address within my local network to make it easier to access and route to everything. Below is a list of all services I currently run and the network configuration surrounding them.
             </p>
             <h3>Software Overview</h3>
             <div className="project-context-text project-columns">
@@ -88,8 +88,8 @@ function ProjectDisplay() {
                 </div>
             </div>
             <h3>Deployment</h3>
-            <p>All public facing applications are SSL encrypted with Lets-Encrypt and are proxied through Cloudflare DNS. For applications that do not need to face the internet, they are enterd into the local Pi Hole nameserver under a local subdomain that will not resolve on the public internet.</p>
-
+            <p>The web applications that I run are all hosted in docker containers with a custom docker network for isolation. Some of these applications are public facing and are reverse proxied through nginx proxy manager with SSL encryption on a public domain name that is also proxied through Cloudflare's DNS service. For applications that do not need to face the internet, their hostnames are resolved through a local Pi Hole nameserver under a local subdomain. Game servers are also proxied through Cloudflare using SRV records.
+            </p>
             <h2>All Projects</h2>
         </div>
     );

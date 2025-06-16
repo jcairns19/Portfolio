@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import './ExperienceDetail.css';
 import { FaCalendarAlt } from "react-icons/fa";
+import { FaLocationCrosshairs } from "react-icons/fa6";
 
 function ExperienceDetail({ experiences }) {
     const { id } = useParams();
@@ -15,6 +16,8 @@ function ExperienceDetail({ experiences }) {
     var present = exp.endDate == "Present";
     var start = new Date(exp.startDate);
     var end = present ? new Date(Date.now()) : new Date(exp.endDate);
+
+    var durationClass = present ? "experience-detail-meta green-bold-large" : "experience-detail-meta";
 
     return (
         <div className="experience-detail-card">
@@ -35,14 +38,17 @@ function ExperienceDetail({ experiences }) {
                 </span>
             </div>
             <div className="experience-detail-meta">
+                <FaLocationCrosshairs />
+                <span>{exp.location}</span>
+            </div>
+            <div className={durationClass}>
                 <FaCalendarAlt />
-                <span>{start.toLocaleString('default', { month: 'long' })} {start.getFullYear()} -
+                <span className = {present ? "heartbeat-green":""}>{start.toLocaleString('default', { month: 'long' })} {start.getFullYear()} -
                     {present
                     ? <span> Present</span>
                     : <span> {end.toLocaleString('default', { month: 'long' })} {end.getFullYear()}</span>
                 }
                 </span>
-                
             </div>
             <div>
                 <strong>Description:</strong>

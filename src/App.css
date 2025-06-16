@@ -26,3 +26,29 @@
     gap: 0.4rem;
     margin-top: 1rem;
 }
+
+.green-bold-large {
+    color: #009944;
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+
+.heartbeat-green {
+    animation: heartbeat-green 1.4s infinite;
+    box-shadow: 0 0 0 0 rgba(0, 200, 83, 0.7);
+}
+
+@keyframes heartbeat-green {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 200, 83, 0.7);
+    }
+    40% {
+        box-shadow: 0 0 0 12px rgba(0, 200, 83, 0.2);
+    }
+    60% {
+        box-shadow: 0 0 0 16px rgba(0, 200, 83, 0.1);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 200, 83, 0.0);
+    }
+}
