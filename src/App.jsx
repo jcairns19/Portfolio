@@ -33,14 +33,14 @@ function App() {
       <Header contactInfo={contactInfo} />
       <main>
         <Routes>
-          <Route path="/" element={<>
+          <Route path="/Portfolio" element={<>
             <AboutMe />
             <FeaturedSection experiences={experiences} />
           </>} />
-          <Route path="/experiences" element={<ExperienceList experiences={experiences} type="experience" />} />
-          <Route path="/experiences/:id" element={<ExperienceDetail experiences={experiences} />} />
+          <Route path="/Portfolio/experiences" element={<ExperienceList experiences={experiences} type="experience" />} />
+          <Route path="/Portfolio/experiences/:id" element={<ExperienceDetail experiences={experiences} />} />
           <Route
-            path="/projects"
+            path="/Portfolio/projects"
             element={
               <>
                 <ProjectDisplay />
