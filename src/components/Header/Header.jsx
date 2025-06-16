@@ -9,16 +9,16 @@ function Header({ contactInfo }) {
     return (
         <header className="portfolio-header">
             <div>
-                <Link to="/" className="portfolio-name-link">
+                <Link to="/Portfolio" className="portfolio-name-link">
                     <span className="portfolio-name">
                         {contactInfo.firstName?.[0]}{contactInfo.lastName?.[0]}
                     </span>
                 </Link>
             </div>
             <nav className="portfolio-nav">
-                <Link to="/experiences">Experiences</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/education">Education</Link>
+                <Link to="/Portfolio/experiences">Experiences</Link>
+                <Link to="/Portfolio/projects">Projects</Link>
+                <Link to="/Portfolio/education">Education</Link>
             </nav>
             <div className="portfolio-header-actions">
                 <button

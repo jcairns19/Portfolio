@@ -48,7 +48,7 @@ function App() {
               </>
             }
           />
-          <Route path="Portfolio/education" element={<ExperienceList experiences={experiences} type="education" />} />
+          <Route path="/Portfolio/education" element={<ExperienceList experiences={experiences} type="education" />} />
         </Routes>
       </main>
       <Footer contactInfo={contactInfo} />
