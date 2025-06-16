@@ -23,7 +23,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch('/models/experiences.json')
+    fetch('models/experiences.json')
       .then(res => res.json())
       .then(data => setExperiences(data))
       .catch(err => console.error('Failed to load inventory:', err));
