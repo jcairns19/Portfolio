@@ -1,1 +1,3 @@
-Jack Cairns -- personal portfolio project -- METCS 601
+# Jack Cairns' Personal Portfolio
+
+Welcome to the personal portfolio of Jack Cairns, developed as the term project for METCS 601 (Web Application Development) course at Boston University. This project is designed to present my professional experience, education, and technical projects throughout my career using a modern, interactive web application. Built with React and JavaScript, this portfolio leverages dynamic routing and responsive design to provide the user with a seamless experience.
