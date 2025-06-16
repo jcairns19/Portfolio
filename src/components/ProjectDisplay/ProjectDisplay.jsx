@@ -33,22 +33,21 @@ function ProjectDisplay() {
             />
             <div className="project-context-text">
                 <strong>Individual projects featured in my homelab:</strong> <br />
-
-                For more information about individual systems, please visit the project pages below.
                 <ul className="experience-points">
                     <li>
                             <TbPointFilled />
-                            <a href="experiences/Unraid-NAS-Project">Unraid NAS Project</a>
+                            <span>Unraid NAS Project</span>
                     </li>
                     <li>
                             <TbPointFilled />
-                            <a href="experiences/Proxmox-Server-Project">Proxmox Server Project</a>
+                            <span>Proxmox Server Project</span>
                     </li>
                     <li>
                             <TbPointFilled />
-                            <a href="experiences/GPU-Compute-Project">GPU Server Project</a>
+                            <span>GPU Server Project</span>
                     </li>
                 </ul>
+                For more information about individual systems, please visit the project pages below.
             </div>
             <h3>Management</h3>
             <p>

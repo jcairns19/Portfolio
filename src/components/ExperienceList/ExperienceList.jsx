@@ -12,7 +12,7 @@ function ExperienceList({ experiences, type }) {
                     <div
                         key={exp.id}
                         style={{ cursor: "pointer", justifyContent: "center" }}
-                        onClick={() => navigate(`/experiences/${exp.id}`)}
+                        onClick={() => navigate(`/Portfolio/experiences/${exp.id}`)}
                     >
                         <Experience
                             name={exp.name}
