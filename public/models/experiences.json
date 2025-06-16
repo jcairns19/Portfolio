@@ -1,0 +1,281 @@
+[
+    {
+        "id": "Software-Engineer-Leidos",
+        "name": "Software Engineer",
+        "organization": "Leidos Inc.",
+        "startDate": "2022-05-31",
+        "endDate": "Present",
+        "description": "At Leidos, I am an environment administrator responsible for maintaining kubernetes deployments of development tools used by my team. I also lead the development of CI/CD pipelines, infrastructure as code solutions, and build procedures to automate our development and test processes for software delivered to the United States Air Force C-sUAS mission. Occasionally, I develop Typescript and Java features on product code.",
+        "location": "Boston, MA",
+        "logo": "/images/leidos-logo.svg",
+        "detailPhoto": "/images/leidos-detail.jpg",
+        "website": "https://www.leidos.com",
+        "feature": true,
+        "type": "experience",
+        "points": [
+            "AWS environment admin",
+            "Docker and kubernetes deployments",
+            "Lead CI/CD pipeline developer",
+            "Java and Typescript development"
+        ],
+        "tags": [
+            "Ansible",
+            "AWS",
+            "CI/CD",
+            "Docker",
+            "Kubernetes",
+            "Python",
+            "Typescript",
+            "Java"
+        ]
+    },
+    {
+        "id": "Technology-Analyst-Vistrada",
+        "name": "Technology Analyst",
+        "organization": "Vistrada LLC",
+        "startDate": "2020-02-03",
+        "endDate": "2022-05-30",
+        "description": "I developed headless web crawlers using containerized JavaScript in a Chromium browser. With the gathered data, I used dynamic SQL procedures to automate data processing for client consumption. Furthermore, I contributed to other Angular and Django applications within the company and delivered demonstations to clients throughout the development cycle.",
+        "location": "Albany, NY",
+        "logo": "/images/vistrada-logo.jpg",
+        "detailPhoto": "/images/vistrada-detail.jpg",
+        "website": "https://www.vistrada.com",
+        "feature": false,
+        "type": "experience",
+        "points": [
+            "Javascript, Python, SQL, and Typescript development",
+            "Containerized command distributed architecture",
+            "Dynamic SQL stored procetures and functions"
+        ],
+        "tags": [
+            "Angular",
+            "Azure DevOps",
+            "Django",
+            "Docker",
+            "JavaScript",
+            "Python",
+            "SQL"
+        ]
+    },
+    {
+        "id": "BS-Computer-Systems-Engineering",
+        "name": "B.S Computer Systems Engineering",
+        "organization": "Rensselaer Polytechnic Institute",
+        "startDate": "2017-08-28",
+        "endDate": "2021-05-15",
+        "description": "After 2 semesters of engineering core classes, I changed my major from Aeronautical Engineering to Computer Systems Engineering. While a significant portion of my curriculim was focused on electrical engineering, nearly all of my engineering elective courses were focused on software engineering.",
+        "location": "Troy, NY",
+        "logo": "/images/rpi-logo.png",
+        "detailPhoto": "/images/rpi-detail.jpg",
+        "website": "https://www.rpi.edu/",
+        "feature": false,
+        "type": "education",
+        "points": [
+            "Electronic circuit design and simulation",
+            "Signal processing and logic design",
+            "C, C++, CUDA, and Python development",
+            "CPU and RAM architecture and design"
+
+        ],
+        "tags": [
+            "C",
+            "C++",
+            "Circuit Design",
+            "Computer Architecture",
+            "CUDA",
+            "Embedded Systems",
+            "Logic Design",
+            "Python",
+            "Signal Processing"
+        ]
+    },
+    {
+        "id": "MS-Computer-Science",
+        "name": "M.S Computer Science",
+        "organization": "Boston University",
+        "startDate": "2023-09-06",
+        "endDate": "Present",
+        "description": "I decided to pursue a Master's degree in Computer Science to learn more advanced concepts of computer science that were not covered in my electrical engineering focused undergraduate degree.",
+        "location": "Boston, MA",
+        "logo": "/images/bu-logo.png",
+        "detailPhoto": "/images/bu-detail.jpg",
+        "website": "https://www.bu.edu/",
+        "feature": false,
+        "type": "education",
+        "points" : [
+            "Machine Learning model training and inference",
+            "Full stack web development - MERN stack",
+            "Advanced software techniques at scale"
+        ],
+        "tags": [
+            "Data Analytics",
+            "Java",
+            "Machine Learning",
+            "Operating Systems",
+            "Python",
+            "React",
+            "SQL"
+        ]
+    },
+    {
+        "id": "Machine-Learning-Project",
+        "name": "Machine Learning Term Project",
+        "organization": "Boston University CS677",
+        "startDate": "2024-09-06",
+        "endDate": "2024-12-21",
+        "description": "In this course, I implenented a machine learning project to predict commercial flight delays. . The project was implemented in Python using the scikit-learn library involved data preprocessing, model training, and evaluation of various machine learning algorithms to solve a real-world problem.",
+        "location": "Boston, MA",
+        "logo": "/images/bu-logo.png",
+        "detailPhoto": "/images/bu-detail.jpg",
+        "website": "https://www.bu.edu/csmet/cs677/",
+        "feature": false,
+        "type": "project",
+        "points": [
+            "Data preprocessing and cleaning",
+            "Model training and evaluation",
+            "Feature engineering and selection",
+            "Data visualization and analysis"
+        ],
+        "tags": [
+            "Data Analytics",
+            "Python",
+            "Machine Learning",
+            "Classification",
+            "Statistical Analysis",
+            "Data Visualization"
+        ]
+    },
+    {
+        "id": "React-Term-Project",
+        "name": "React Web Application",
+        "organization": "Boston University CS601",
+        "startDate": "2025-05-06",
+        "endDate": "2025-06-24",
+        "description": "The goal of this term project was to develop a web application using the React framework using the strategies covered in the course. If you are reading this, you are likely looking at the result of this project which is a portfolio displaying my professional experience. The project was implemented in JavaScript and uses React, HTML, and CSS to create a responsive and interactive user interface.",
+        "location": "Boston, MA",
+        "logo": "/images/bu-logo.png",
+        "detailPhoto": "/images/bu-detail.jpg",
+        "website": "https://www.bu.edu/csmet/cs601/",
+        "feature": true,
+        "type": "project",
+        "points": [
+            "Responsive web design",
+            "State management with React",
+            "Component-based architecture",
+            "JavaScript and Typescript development"
+        ],
+        "tags": [
+            "JavaScript",
+            "Typescript",
+            "React",
+            "Web Development",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": "Unraid-NAS-Project",
+        "name": "Unraid Home NAS",
+        "organization": "Hobbyist",
+        "startDate": "2020-12-10",
+        "endDate": "2025-01-18",
+        "description": "I first started building out this NAS back in late 2020 with the goal of bringing my data off of the cloud and onto my own hardware while also learning linux and exploring networking and security. I chose Unraid as the OS since it had a nice web UI to help me learn fundamental concepts while also moving at a faster pace. The project has been evolving ever since. Curently today, I have expanded the system to a 20TB storage array running on 20 Skylake Xeon cores with 48GB of RAM. The system runs a variety of services including a fully automated Plex stack, Nextcloud, Jellyfin, GitLab, a full Bitcoin node, and more security and netwoeking tools.",
+        "location": "Remote",
+        "logo": "/images/unraid-logo.svg",
+        "detailPhoto": "/images/warrior-uncovered-full.jpg",
+        "website": "https://unraid.net/",
+        "feature": false,
+        "type": "project",
+        "points": [
+            "Linux system administration",
+            "Networking and security configuration",
+            "Virtualization with KVM and LXC",
+            "File system management with ZFS and Btrfs"
+        ],
+        "tags": [
+            "Linux",
+            "Docker",
+            "Networking",
+            "Virtualization",
+            "TCP/IP",
+            "File Systems",
+            "System Administration"
+        ]
+    },
+    {
+        "id": "Proxmox-Server-Project",
+        "name": "Proxmox Home Server",
+        "organization": "Hobbyist",
+        "startDate": "2023-10-10",
+        "endDate": "2024-11-17",
+        "description": "After several years of using Unraid, I decided to add to my home lab a Proxmox server. I chose proxmox due to a recommendation from a collegue at the time and decided to spec the machine with CPU cores with much better single threaded performacne to handle loads like game servers. Since then, I have hosted several several game servers both private and public for friends and family.",
+        "location": "Remote",
+        "logo": "/images/proxmox-logo.svg",
+        "detailPhoto": "/images/proxmox-full.jpg",
+        "website": "https://unraid.net/",
+        "feature": false,
+        "type": "project",
+        "points": [
+            "Virtualization with KVM and LXC",
+            "Game server hosting"
+        ],
+        "tags": [
+            "Networking",
+            "Virtualization",
+            "TCP/IP",
+            "NFS",
+            "System Administration"
+        ]
+    },
+    {
+        "id": "GPU-Compute-Project",
+        "name": "GPU Server Project",
+        "organization": "Hobbyist",
+        "startDate": "2024-03-21",
+        "endDate": "2025-04-25",
+        "description": "My latest exploration into homelabbing was building a GPU server. Initially, I used this server to run crypto mining applications to stability test the system and all of the 5 GPUs I had installed. However, I have since shut the system down for the time being since it was consuming a lot of power and was very stable. I plan to reporpuse the system in the future for local machine learning and AI applications.",
+        "location": "Remote",
+        "logo": "/images/ollama-logo.svg",
+        "detailPhoto": "/images/gpu-server.jpg",
+        "website": "https://unraid.net/",
+        "feature": false,
+        "type": "project",
+        "points": [
+            "GPU compute with CUDA",
+            "Cryptocurrency mining and validation nodes",
+            "AI/ML model inference"
+        ],
+        "tags": [
+            "Stability Testing",
+            "CUDA Toolkit",
+            "Remote Management",
+            "System Administration"
+        ]
+    },
+    {
+        "id": "Unreal-Engine-Game",
+        "name": "Unreal Engine 5 Multiplayer Game",
+        "organization": "Hobbyist",
+        "startDate": "2025-03-30",
+        "endDate": "Present",
+        "description": "My latest exploration into homelabbing was building a GPU server. Initially, I used this server to run crypto mining applications to stability test the system and all of the 5 GPUs I had installed. However, I have since shut the system down for the time being since it was consuming a lot of power and was very stable. I plan to reporpuse the system in the future for local machine learning and AI applications.",
+        "location": "Remote",
+        "logo": "/images/ue5-logo.png",
+        "detailPhoto": "/images/unreal-detail.jpg",
+        "website": "https://www.unrealengine.com/en-US/unreal-engine-5",
+        "feature": true,
+        "type": "project",
+        "points": [
+            "C++ and Unreal Engine development",
+            "Visual scripting with Blueprints",
+            "Asset creation with Blender"
+        ],
+        "tags": [
+            "C++",
+            "Multiplayer Networking",
+            "Asset Creation",
+            "Blender"
+        ]
+    }
+
+]

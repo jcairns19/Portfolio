@@ -1,0 +1,35 @@
+.experience-list-flex {
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 2.5% 0;
+}
+
+/* Responsive grid for experience items */
+@media (max-width: 1600px) {
+  .experience-list-flex {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .experience-list-flex {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media (max-width: 1050px) {
+  .experience-list-flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .experience-list-flex {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}

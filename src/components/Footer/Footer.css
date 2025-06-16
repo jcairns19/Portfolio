@@ -1,0 +1,15 @@
+/* Footer.css */
+.portfolio-footer {
+  background: #f5c16c; /* tan */
+  color: #a4161a;      /* crimson red */
+  text-align: center;
+  padding: 1.2rem 0 1rem 0;
+  font-size: 1rem;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  border-top: 3px solid #ff6700; /* orange */
+}
+
+.portfolio-footer a {
+  color: #a4161a;
+  text-decoration: underline;
+}

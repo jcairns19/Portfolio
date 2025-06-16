@@ -1,0 +1,23 @@
+.featured-section {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  padding: 2rem 2rem 2.5rem 2rem;
+  margin: 0 auto 2.5rem auto;
+  max-width: 90%;
+}
+
+.featured-title {
+  color: #a4161a;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.featured-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}

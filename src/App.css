@@ -1,0 +1,28 @@
+.main {
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+/* Theme:
+  Primary: #a4161a;
+  Secondary: #ff6700;
+  Ternary: #f5c16c
+*/
+
+.tag-chip {
+    background: #ff6700;
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.3em 1em;
+    font-size: 0.98rem;
+    font-weight: 500;
+    box-shadow: 0 1px 4px rgba(255,103,0,0.10);
+    letter-spacing: 0.5px;
+    user-select: none;
+}
+
+.experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}

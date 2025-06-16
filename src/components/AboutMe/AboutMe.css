@@ -1,0 +1,41 @@
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #3730a3;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin: 2rem auto 2.5rem auto;
+  max-width: 900px;
+  gap: 2.5rem;
+}
+
+.about-me-photo {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #f5c16c;
+  box-shadow: 0 2px 12px rgba(255,103,0,0.10);
+  background: #fff8f0;
+}
+
+.about-me-text {
+  width: 90%;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  text-align: center;
+}
+
+.about-me-text h1 {
+  color: #a4161a;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-me-text p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}

@@ -1,0 +1,101 @@
+/* Header.css */
+.portfolio-header {
+  background: #fff;
+  color: #a4161a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  border-bottom: 3px solid #f5c16c;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.portfolio-name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #a4161a;
+  letter-spacing: 1px;
+}
+
+.portfolio-header-actions {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.portfolio-nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #ff6700;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.portfolio-nav a:hover {
+  background: #f5c16c;
+  color: #a4161a;
+}
+
+.contact-btn {
+  background: #ff6700;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(255,103,0,0.08);
+}
+.contact-btn:hover {
+  background: #a4161a;
+}
+
+/* contact card is a popout that is displayed conditionally */
+.contact-card {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.contact-card-content {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 2rem 2.5rem;
+  min-width: 260px;
+  color: #a4161a;
+  text-align: center;
+  position: relative;
+}
+.close-contact-btn {
+  margin-top: 1rem;
+  background: #f5c16c;
+  color: #a4161a;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.close-contact-btn:hover {
+  background: #ff6700;
+  color: #fff;
+}
+.portfolio-name-link {
+  text-decoration: none;
+}
+.portfolio-name-link .portfolio-name {
+  cursor: pointer;
+}

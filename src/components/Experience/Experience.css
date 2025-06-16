@@ -1,0 +1,102 @@
+.experience-card {
+    background: #fff8f0;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(255, 103, 0, 0.08);
+    padding: 1.5rem 1.2rem;
+    flex: 1 1 260px;
+    max-width: 320px;
+    min-width: 220px;
+    color: #3730a3;
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.experience-card h3 {
+    color: #ff6700;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.experience-card:hover {
+    box-shadow: 0 8px 32px rgba(255, 103, 0, 0.16);
+    transform: translateY(-4px) scale(1.03);
+}
+
+.experience-title-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.75rem;
+    margin: -1.5rem 0 -1.25rem 0; /* tight margins to fit content better */
+}
+
+.experience-metadata {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-logo {
+    width: auto;
+    height: 1.4rem;
+    object-fit: contain;
+}
+
+.experience-company {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #a4161a;
+}
+
+.experience-points {
+    list-style: none;
+    margin: 0.7rem 0 0.7rem -0.8rem; /* set left margin lower to move to the left */
+    padding: 0.7rem 1rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 28px rgba(255,103,0,0.18); /* more pronounced orange shadow */
+    font-size: 1rem;
+}
+
+.experience-points li {
+    margin-bottom: 0.3rem;
+    line-height: 1.5;
+    display: flex; /* need flex display here to include custom icon and data horizontally */
+    align-items: flex-start;
+    gap: 0.5em;
+}
+
+.experience-point-icon {
+    color: #a4161a;
+    margin-top: 0.2em;
+    flex-shrink: 0;
+}
+
+.green-bold-large {
+    color: #009944;
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+
+.heartbeat-green {
+    animation: heartbeat-green 1.4s infinite;
+    box-shadow: 0 0 0 0 rgba(0, 200, 83, 0.7);
+}
+
+@keyframes heartbeat-green {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 200, 83, 0.7);
+    }
+    40% {
+        box-shadow: 0 0 0 12px rgba(0, 200, 83, 0.2);
+    }
+    60% {
+        box-shadow: 0 0 0 16px rgba(0, 200, 83, 0.1);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 200, 83, 0.0);
+    }
+}

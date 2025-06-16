@@ -1,0 +1,79 @@
+.project-display-container {
+    padding: 2.5rem 2rem 2rem 2rem; /* padding in all directions to center content */
+    margin: 2rem auto;
+    max-width: 700px;
+    color: #3730a3;
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project-display-container h2 {
+    color: #ff6700;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.project-display-container h3 {
+    color: #ff6700;
+    font-size: 1.5rem;
+    margin-bottom: -1.5rem;
+}
+
+.project-display-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-display-container img {
+    display: block;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(255,103,0,0.13);
+}
+
+/* context area with additional detail or graphics */
+.project-context-text {
+    max-width: 600px;
+    background: #f7f3ee;
+    border-radius: 10px;
+    padding: 1rem 1.3rem;
+    color: #3730a3;
+    font-size: 1.03rem;
+    box-shadow: 0 1px 8px rgba(255,103,0,0.08);
+    line-height: 1.6;
+}
+
+.project-columns {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.project-columns > div {
+    flex: 1 1 0;
+    min-width: 0;
+}
+.project-columns ul {
+    list-style: none;
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    font-size: 0.98rem;
+}
+.project-columns strong {
+    color: #ff6700;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+.project-columns img {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.project-columns li {
+    margin-bottom: 1rem;
+}
