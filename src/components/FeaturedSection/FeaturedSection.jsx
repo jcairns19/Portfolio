@@ -15,7 +15,7 @@ function FeaturedSection({ experiences }) {
                         <div
                             key={exp.id}
                             style={{ cursor: "pointer" }}
-                            onClick={() => navigate(`/experiences/${exp.id}`)}
+                            onClick={() => navigate(`/Portfolio/experiences/${exp.id}`)}
                         >
                             <Experience
                                 name={exp.name}
